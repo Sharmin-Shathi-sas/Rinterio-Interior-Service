@@ -42,20 +42,75 @@
 </head>
 
 <body class="font-manrope">
-  <header class="bg-gradient-to-b from-[#F4F4F4] from-10% to-white to-100% px-8 py-4 md:px-16  md:py-8 lg:px-20 lg:py-10">
-      <div class="navbar bg-transparent pb-16">
+  <header
+    class="bg-gradient-to-b from-[#F4F4F4] from-10% to-white to-100% px-8 py-4 md:px-16  md:py-8 lg:px-24 lg:py-10">
+    <div class="navbar bg-transparent pb-16">
 
-        <!--Navbar start-->
-        <div class="navbar-start">
-          <div class="bg-[#ABEF5F] px-2 py-1  rounded-full -rotate-45 mt-1">
-            <i class="fa-solid fa-arrow-right"></i>
-          </div>
-          <a class="btn btn-ghost text-2xl md:text-3xl font-bold">Rintorio</a>
+      <!--Navbar start-->
+      <div class="navbar-start">
+        <div class="bg-[#ABEF5F] px-2 py-1  rounded-full -rotate-45 mt-1">
+          <i class="fa-solid fa-arrow-right"></i>
         </div>
-  
-        <!--Navbar Center-->
-        <div class="navbar-center hidden md:flex">
-          <ul class="menu menu-horizontal px-1">
+        <a class="btn btn-ghost text-2xl md:text-3xl font-bold">Rintorio</a>
+      </div>
+
+      <!--Navbar Center-->
+      <div class="navbar-center hidden md:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="font-extrabold">Home</a></li>
+          <li><a class="text-gray-500">Service</a></li>
+          <li><a class="text-gray-500">Porfolio</a></li>
+          <li><a class="text-gray-500">Blogs</a></li>
+          <li><a class="text-gray-500">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!--Navbar end-->
+      <div class="navbar-end">
+        <div class="flex gap-1">
+          <div class="hidden md:block">
+            <button class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2 bg-white rounded-full text-gray-600"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden md:block">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <div class="indicator">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2 bg-white rounded-full text-gray-600"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div>
+          </div>
+          <div class="hidden md:block">
+            <div class="bg-[#ABEF5F] rounded-full px-3 py-2 font-extrabold whitespace-nowrap">
+              <button class="flex gap-1 items-center">
+                <h3>Book Consult</h3>
+                <div class="bg-black text-white px-1 py-.5  rounded-full -rotate-45">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end flex-1 block md:hidden">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-auto p-1 shadow">
             <li><a class="font-extrabold">Home</a></li>
             <li><a class="text-gray-500">Service</a></li>
             <li><a class="text-gray-500">Porfolio</a></li>
@@ -63,104 +118,58 @@
             <li><a class="text-gray-500">Contact Us</a></li>
           </ul>
         </div>
-  
-        <!--Navbar end-->
-        <div class="navbar-end">
-          <div class="flex gap-1">
-            <div class="hidden md:block">
-              <button class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2 bg-white rounded-full text-gray-600"
-                  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </button>
-            </div>
-            <div class="hidden md:block">
-              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                <div class="indicator">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 p-2 bg-white rounded-full text-gray-600"
-                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div>
-            </div>
-            <div class="hidden md:block">
-              <div class="bg-[#ABEF5F] rounded-full px-3 py-2 font-extrabold whitespace-nowrap">
-                <button class="flex gap-1 items-center">
-                  <h3>Book Consult</h3>
-                  <div class="bg-black text-white px-1 py-.5  rounded-full -rotate-45">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="navbar-end flex-1 block md:hidden">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                class="inline-block h-5 w-5 stroke-current">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-              </svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-auto p-1 shadow">
-              <li><a class="font-extrabold">Home</a></li>
-              <li><a class="text-gray-500">Service</a></li>
-              <li><a class="text-gray-500">Porfolio</a></li>
-              <li><a class="text-gray-500">Blogs</a></li>
-              <li><a class="text-gray-500">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
       </div>
-  
-      <!--Hero Section-->
-  
-      <div class="hero">
-        <div class="hero-content text-center">
-          <div class="w-auto md:w-9/12">
-            <div class="flex items-center justify-center">
-              <img src="assets/banner.png" alt="">
-            </div>
-            <h1 class="text-3xl md:text-5xl font-extrabold">A barn house of this design has a striking appearance</h1>
-            <p class="py-6 font-semibold">
-              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weather wood, sleek metal accent, and large windowsthat flood the space with natural light.
-            </p>
-            <div>
-              <div class="max-w-full flex justify-center items-center  ">
-              <button class="bg-[#ABEF5F]/[.5] w-full md:w-40 md:whitespace-nowrap md:px-6 flex justify-center items-center rounded-3xl">
+    </div>
+
+    <!--Hero Section-->
+
+    <div class="hero">
+      <div class="hero-content text-center">
+        <div class="w-auto md:w-9/12">
+          <div class="flex items-center justify-center">
+            <img src="assets/banner.png" alt="">
+          </div>
+          <h1 class="text-3xl md:text-5xl font-extrabold">A barn house of this design has a striking appearance</h1>
+          <p class="py-6 font-semibold">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weather wood,
+            sleek metal accent, and large windowsthat flood the space with natural light.
+          </p>
+          <div>
+            <div class="max-w-full flex justify-center items-center  ">
+              <button
+                class="bg-[#ABEF5F]/[.5] w-full md:w-40 md:whitespace-nowrap md:px-6 flex justify-center items-center rounded-3xl">
                 <div>
                   <h3 class="pl-2 font-extrabold">View page</h3>
                 </div>
-                  <div class="mx-1 my-2 bg-[#ABEF5F] px-1 py-.5 rounded-full">
-                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
-                  </div>
+                <div class="mx-1 my-2 bg-[#ABEF5F] px-1 py-.5 rounded-full">
+                  <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
               </button>
-            </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </header>
   <main class="">
 
     <!--Design & Work process-->
-    <div class="px-8 py-4 md:px-16  md:py-8 lg:px-20 lg:py-10 bg-stone-100 mt-24">
-      <div class="">
-        <div class="">
-          <div class="">
-            <img src="assets/Vector.png" alt="">
-          </div>
-          <div class="card card-side bg-transparent">
-            
-            <div class="card-body py-4">
-              <div class="bg-white rounded-xl px-4 pt-1 pb-2 w-32">
+    <div class="px-8 py-4 md:px-16  md:py-8 lg:px-24 lg:py-10 bg-stone-100 mt-24">
+
+      <!--Vector image-->
+
+      <div class="hidden lg:visible">
+        <img src="assets/Vector.png" alt="">
+      </div>
+
+      <!--Card and image container section-->
+
+      <div class="card  bg-transparent w-full">
+
+        <div class="lg:flex  gap-6">
+          <div class="lg:w-1/2">
+            <div class="card-body  px-0 py-4  flex justify-center items-center md:flex md:justify-start md:items-start">
+              <div class="bg-white rounded-2xl px-4 py-1 w-32">
                 <button class="flex gap-1">
                   <div>
                     <i class="fa-solid fa-arrow-right"></i>
@@ -168,21 +177,20 @@
                   <h3 class="font-medium">About Us</h3>
                 </button>
               </div>
-              <h2 class="card-title font-extrabold text-3xl md:text-5xl py-2">
+              <h2 class="card-title font-extrabold text-3xl md:text-5xl py-4 text-center lg:text-start">
                 We design thoughtful, liveable spaces
               </h2>
-              <p>
-                The barn house captive with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+              <p class="mb-4 text-center lg:text-start">
+                The barn house captive with its blend of rustic charm and modern sophistication, featuring weathered wood,
+                sleek metal accents.
               </p>
-
+  
               <!--card section-->
-              <div>
-                <div class="mt-4">
-                  <div class="card card-side bg-base-100 shadow-xl mb-8 pl-8">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-2 md:gap-4 mb-4 lg:mb-0">
+                <div class="">
+                  <div class="card card-side bg-base-100 shadow-xl pl-8 ">
                     <figure>
-                      <img
-                        src="assets/commercial.png"
-                        alt="Movie" />
+                      <img src="assets/commercial.png" alt="Movie" />
                     </figure>
                     <div class="card-body p-4">
                       <h3 class="font-bold">Commercial</h3>
@@ -190,13 +198,11 @@
                     </div>
                   </div>
                 </div>
-
+  
                 <div>
                   <div class="card card-side bg-base-100 shadow-xl pl-8">
                     <figure>
-                      <img
-                        src="assets/residential.png"
-                        alt="Movie" />
+                      <img src="assets/residential.png" alt="Movie" />
                     </figure>
                     <div class="card-body p-4">
                       <h3 class="font-bold">Residential</h3>
@@ -204,21 +210,21 @@
                     </div>
                   </div>
                 </div>
-
+  
               </div>
-              
+  
             </div>
-            <figure class="w-full">
-              <img class="h-full w-auto object-contain"
-                src="assets/Rectangle.png"
-                alt="Movie" />
+          </div>
+          <div>
+            <figure class="h-full">
+              <img class="h-auto object-cover" src="assets/Rectangle.png" alt="Movie" />
             </figure>
           </div>
         </div>
-        <div>
 
-        </div>
+
       </div>
+
 
     </div>
 
